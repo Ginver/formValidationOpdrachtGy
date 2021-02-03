@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+
 <head>
-    <meta charset="UTF-8">
     <title>Form validation</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div class="registration-form">
+    <h1>Registreren</h1>
+    <form id="login">
+        <p>Gebruikersnaam:</p>
+        <input id="username" type="text" name="username" placeholder="jannekewestendorp">
+        <p id="warningUsername">Gebruikersnaam mag geen @ bevatten</p>
+        <p>Wachtwoord:</p>
+        <input id="password" type="text" name="password" placeholder="Wachtwoord">
+        <p id="warningPassword">Wachtwoord is te kort, gebruik minimaal 6 tekens</p>
+    </form>
+</div>
 
+
+
+<script src="main.js"></script>
 </body>
 </html>
+
+
+
